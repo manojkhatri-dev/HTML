@@ -1,0 +1,66 @@
+<!--
+
+placeholder: it is an attribute of the input tag that provides a hint to the user about what type of information is expected in the input field. 
+
+radio: it is an input type that allows the user to select one option from a group of options. Each radio button in the group has the same name attribute, which allows them to be grouped together. 
+
+label: it is used to define a label for an input element. It provides a user-friendly description of the input field and can be associated with the input element using the for attribute, which should match the id of the input element. This allows users to click on the label to focus on the corresponding input field, improving accessibility and usability.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+</head>
+<body>
+
+    <form action="/action.py">
+
+        <input type ="text" placeholder="Enter your Username">
+        <br><br>
+        <input type ="password" placeholder="Enter your Password">
+        <br><br>
+
+        <label for"101">
+        <input type="radio" value="Class XI" name="Class" id="101">Class XI
+        </label>
+
+        <label for"102">
+        <input type="radio" value="Class XII" name="Class" id="102">Class XII
+        </label>
+        <br><br>
+
+        <label for"Male">
+        <input type="radio" value="Male" name="Gender" id="Male">Male
+        </label>
+
+        <label for"Female">
+        <input type="radio" value="Female" name="Gender" id="Female">Female
+        </label>
+        <br><br>
+
+<hr>
+
+<label for="html">
+    <input type="checkbox" value="html" name="subject" id="101">HTML
+</label>
+<label for="CSS">
+    <input type="checkbox" value="css" name="subject" id="102">CSS
+</label>
+<label for="JavaScript">
+    <input type="checkbox" value="javascript" name="subject" id="103">JavaScript
+</label>
+<label for="Python">
+    <input type="checkbox" value="python" name="subject" id="104">Python
+</label>
+<label for =React>
+    <input type ="Checkbox" value="React" name="Subject" id="105">React
+</label>
+
+    </form>
+
+</body>
+</html>
